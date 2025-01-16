@@ -1,75 +1,74 @@
 *{
     padding: 0%;
-    margin: 0%;
     box-sizing: border-box;
     font-family: italic;
 }  
-
+body{
+  font-size: 18px;
+  padding: 140px;
+}
 .photo1-rond {
     position: relative;
     width: 100%;
     border-radius: 100%;
     overflow: hidden;
   }
-  
   .photo1{
     width: 350px;
-    border-radius: 1800px;
+    border-radius: 100%
   }
-
   h2{
     font-size: 250%;
     margin-bottom: 20px;
-    border-bottom: 1px solid black;
   }
-
   .photo2 {
-    
+    float: right;
     width: 300px;
   }
-
   .treintje{
     width: 300px;
   }
-
   p{
-    margin-bottom: 40px;
+    margin-bottom: 11%;
+    position: relative;
   }
-  
   .photo1 {
     top: 0;
     left: 0;
     width: 50;
   }
-  
   .photo2 {
     bottom: 0;
     right: 0;
   }
-
-  img {
-    border-radius: 100%;
+  .aftereffects{
+    bottom: 0;
+    right: 0;
+    float: right;
   }
-  
-
-
+  img {
+    float: left;
+  }
 article{
-    padding: 40px;
+  padding: 100px;
+  margin: 0px auto;
 }
-
 figure{
     margin-bottom: 40px;
 }
-
 img{
-    width: 100%;
+    width: 20%;
     margin-bottom: 10px;
     border-radius: 10px;
     transition: 10 transform;
 }
-
 .round-btn {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
+  }
+  h3{
+    font-size: 100%;
+    margin-top: -10px;
+    text-align: center;
   }
